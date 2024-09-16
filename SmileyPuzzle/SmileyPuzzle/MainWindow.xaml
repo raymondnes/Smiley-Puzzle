@@ -1,0 +1,50 @@
+﻿<!-- Please keep in mind that if I were to be academic about creating this I would do it a bit differently, but then the amount of code rows would be larger...
+    ... The same will apply when you get this as HTML later! -->
+    <Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="SmileyPuzzle" Height="650" Width="250">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.4*"/>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="0.4*"/>
+        </Grid.RowDefinitions>
+        <Grid HorizontalAlignment="Left" ShowGridLines="True" Height="225" Margin="10,10,10,10" VerticalAlignment="Top" Width="225">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Image Name="I00" Source="Images/piece1.png" MouseLeftButtonDown="imageclickdummyForWPF" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" Height="65" Margin="5,5,0,0" Grid.RowSpan="1" VerticalAlignment="Top" Width="65" />
+            <Image Name="I01" Source="Images/piece2.png" MouseLeftButtonDown="imageclickdummyForWPF" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Height="65" Margin="5,5,0,0" Grid.RowSpan="1" VerticalAlignment="Top" Width="65"/>
+            <Image Name="I02" Source="Images/piece3.png" MouseLeftButtonDown="imageclickdummyForWPF" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Left" Height="65" Margin="5,5,0,0" Grid.RowSpan="1" VerticalAlignment="Top" Width="65"/>
+            <Image Name="I10" Source="Images/piece4.png" MouseLeftButtonDown="imageclickdummyForWPF" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" Height="65" Margin="5,5,0,0" Grid.RowSpan="1" VerticalAlignment="Top" Width="65"/>
+            <Image Name="I11" Source="Images/piece5.png" MouseLeftButtonDown="imageclickdummyForWPF" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Height="65" Margin="5,5,0,0" Grid.RowSpan="1" VerticalAlignment="Top" Width="65"/>
+            <Image Name="I12" Source="Images/piece6.png" MouseLeftButtonDown="imageclickdummyForWPF" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Left" Height="65" Margin="5,5,0,0" Grid.RowSpan="1" VerticalAlignment="Top" Width="65"/>
+            <Image Name="I20" Source="Images/piece7.png" MouseLeftButtonDown="imageclickdummyForWPF" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" Height="65" Margin="5,5,0,0" Grid.RowSpan="1" VerticalAlignment="Top" Width="65"/>
+            <Image Name="I21" Source="Images/piece8.png" MouseLeftButtonDown="imageclickdummyForWPF" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Height="65" Margin="5,5,0,0" Grid.RowSpan="1" VerticalAlignment="Top" Width="65"/>
+            <Image Name="I22" Source="Images/piece9.png" MouseLeftButtonDown="imageclickdummyForWPF" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left" Height="65" Margin="5,5,0,0" Grid.RowSpan="1" VerticalAlignment="Top" Width="65"/>
+        </Grid>
+        <Button Grid.ColumnSpan="1" Click="buttonclickdummyForWPF"  HorizontalAlignment="Left" Height="50" Margin="5,5,5,5" Grid.Row="1" VerticalAlignment="Top" Width="230">
+            <TextBlock VerticalAlignment="Center">Mix the pieces by clicking here </TextBlock>
+        </Button>
+        <TextBox Name="LogText" Grid.ColumnSpan="1" HorizontalAlignment="Left" Height="210" Margin="5,5,5,5" Grid.Row="2" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="230"/>
+
+    </Grid>
+    
+
+</Window>

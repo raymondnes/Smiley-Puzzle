@@ -1,0 +1,15 @@
+C:\Users\sandejan\Documents\JSCourseMerge\L1\SmileyPuzzleEn\SmileyPuzzle\obj\Debug\SmileyPuzzle.csproj.AssemblyReference.cache
+C:\Users\sandejan\Documents\JSCourseMerge\L1\SmileyPuzzleEn\SmileyPuzzle\obj\Debug\MainWindow.g.cs
+C:\Users\sandejan\Documents\JSCourseMerge\L1\SmileyPuzzleEn\SmileyPuzzle\obj\Debug\App.g.cs
+C:\Users\sandejan\Documents\JSCourseMerge\L1\SmileyPuzzleEn\SmileyPuzzle\obj\Debug\SmileyPuzzle_MarkupCompile.cache
+C:\Users\sandejan\Documents\JSCourseMerge\L1\SmileyPuzzleEn\SmileyPuzzle\obj\Debug\SmileyPuzzle_MarkupCompile.lref
+C:\Users\sandejan\Documents\JSCourseMerge\L1\SmileyPuzzleEn\SmileyPuzzle\bin\Debug\SmileyPuzzle.exe.config
+C:\Users\sandejan\Documents\JSCourseMerge\L1\SmileyPuzzleEn\SmileyPuzzle\bin\Debug\SmileyPuzzle.exe
+C:\Users\sandejan\Documents\JSCourseMerge\L1\SmileyPuzzleEn\SmileyPuzzle\bin\Debug\SmileyPuzzle.pdb
+C:\Users\sandejan\Documents\JSCourseMerge\L1\SmileyPuzzleEn\SmileyPuzzle\obj\Debug\MainWindow.baml
+C:\Users\sandejan\Documents\JSCourseMerge\L1\SmileyPuzzleEn\SmileyPuzzle\obj\Debug\SmileyPuzzle.g.resources
+C:\Users\sandejan\Documents\JSCourseMerge\L1\SmileyPuzzleEn\SmileyPuzzle\obj\Debug\SmileyPuzzle.Properties.Resources.resources
+C:\Users\sandejan\Documents\JSCourseMerge\L1\SmileyPuzzleEn\SmileyPuzzle\obj\Debug\SmileyPuzzle.csproj.GenerateResource.cache
+C:\Users\sandejan\Documents\JSCourseMerge\L1\SmileyPuzzleEn\SmileyPuzzle\obj\Debug\SmileyPuzzle.csproj.CoreCompileInputs.cache
+C:\Users\sandejan\Documents\JSCourseMerge\L1\SmileyPuzzleEn\SmileyPuzzle\obj\Debug\SmileyPuzzle.exe
+C:\Users\sandejan\Documents\JSCourseMerge\L1\SmileyPuzzleEn\SmileyPuzzle\obj\Debug\SmileyPuzzle.pdb
