@@ -98,3 +98,7 @@ void squareclick(int n)
 5. **Swap if adjacent**: If they are adjacent, the tiles are swapped, and the board is updated. If not, the move is rejected.
 
 This logic ensures that only valid moves are allowed in the puzzle, maintaining the rules of how sliding puzzles work.
+
+
+![image](https://github.com/user-attachments/assets/bc5bd8c3-194b-4a3b-a753-245c31453890)
+
